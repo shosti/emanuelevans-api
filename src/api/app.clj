@@ -1,4 +1,4 @@
-(ns sample.app
+(ns api.app
   (:require [ring.adapter.jetty :as jetty]
             [compojure.core :refer [defroutes GET]]))
 

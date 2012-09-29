@@ -5,7 +5,7 @@
 (defroutes handler
   (GET "/" []
        {:headers {"Content-type" "text/plain; charset=UTF-8"}
-        :body "Hello world!"}))
+        :body "Hello other world!"}))
 
 (defn -main []
   (jetty/run-jetty handler

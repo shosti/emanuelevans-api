@@ -4,4 +4,4 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [compojure "1.1.1"]
                  [ring/ring-jetty-adapter "1.1.2"]]
-  :main ^:skip-aot sample.app)
+  :main ^:skip-aot api.app)
